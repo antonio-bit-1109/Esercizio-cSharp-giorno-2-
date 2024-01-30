@@ -38,7 +38,7 @@ namespace Esercizio_2_c_sharp
             Persona antonio = new Persona(nomeAltro, cognomeAltro, inputetà);
             antonio.GetNome();
             antonio.GetCognome();
-            antonio.getDettagli();
+            Console.WriteLine(antonio.getDettagli());
 
             Console.ReadLine();
         }

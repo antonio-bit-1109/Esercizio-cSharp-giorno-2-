@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace Esercizio_2_c_sharp
+﻿namespace Esercizio_2_c_sharp
 {
     internal class Persona
     {
@@ -31,9 +29,9 @@ namespace Esercizio_2_c_sharp
         }
 
         // procedura void 
-        public void getDettagli()
+        public string getDettagli()
         {
-            Console.WriteLine($"questa persona si chiama {this.Nome}, di cognome fa {this.Cognome} e ha un età di {this.Eta} anni ");
+            return ($"questa persona si chiama {this.Nome}, di cognome fa {this.Cognome} e ha un età di {this.Eta} anni ");
         }
     }
 }
