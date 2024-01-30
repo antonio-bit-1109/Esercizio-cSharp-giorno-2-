@@ -32,7 +32,7 @@ namespace Esercizio_2_c_sharp
 
             /*while (!int.TryParse(Console.ReadLine() , out inputetà))
             {
-                Console.WriteLine("Errore: Devi inserire un numero per l'età. Riprova:");
+                Console.WriteLine("Errore: Devi inserire un numero. Riprova.");
             }*/
 
 
